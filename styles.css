@@ -7,3 +7,11 @@ color: #233e4b;
 font-family : Stencil;
 text-align: center;
 }
+.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
+.project {
+width: 30;
+margin: 10;
+padding: 20 10;
+background: white; /* pick a color */
+border-radius: 25;
+}
